@@ -1,0 +1,146 @@
+header {
+    background: -webkit-gradient(linear,left top,right top,from(#41a0ff),to(#303ab8));
+    color:white;
+    background-attachment:scroll;
+    padding: 10px;
+}
+ 
+hr{
+    display: inline-flexbox;
+    margin:3px;
+    opacity:0
+}
+body { 
+    margin:0
+}
+a { 
+    text-decoration: none;
+    color: white
+}
+/* Button Start */
+
+/* Ripple effect */
+
+  /* Button style */
+
+  #click-button {
+    border: none;
+    border-radius: 2px;
+    padding: 50px 160px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    background-color: #2196f3;
+    box-shadow: 0 0 4px #999;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing:2px;
+
+  }
+
+  #click-button {
+    background-position: center;
+    transition: background 0.8s;
+  }
+
+  #click-button:hover {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  }
+  #click-button:active {
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
+  }
+  
+
+  /* Button End */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+
+  }
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+  }
+  
+  .logo {
+    margin-right:830px;
+    display: inline;
+  }
+  li a:hover {
+    background-color: #111;
+    opacity:0.1;
+    color:white
+  }
+ 
+.center {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#title,
+#Score {
+    letter-spacing:1px;
+    text-align: center;
+}
+#demo,
+#time,
+#cps {
+  display: inline
+}
+
+.mode-1,
+#restart-button {
+  display: none;
+}
+
+#restart-button {
+  border: none;
+  border-radius: 2px;
+  padding: 30px 19px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: white;
+  background-color: #2196f3;
+  box-shadow: 0 0 4px #999;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  letter-spacing:2px;
+}
+  #restart-button {
+    background-position: center;
+    transition: background 0.8s;
+  }
+
+  #restart-button:hover {
+    background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+  }
+  #restart-button:active {
+    background-color: #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
+  }
+  #footer {
+    padding: 40px;
+    background-color: #343a40!important;
+  }
+  .conten {
+    margin-bottom:  210px;
+  }
