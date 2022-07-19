@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="استمتع برفع اغانيك المفضله والاستماع اليه بدون انقطاع .">
+    <title>clever music.</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+    
+<header>
+
+    <div class="sidebar">
+
+        <nav>
+
+            <label class="logo">Cps Speed Test </label>
+
+            <ul>
+
+                <li><a href="" role="separator">Clicks Per Second</a></li>
+                <li><a href="" role="separator">Clicks in 5 Seconds</a></li>
+                <li><a href="" role="separator">Clicks in 10 Seconds</a></li>  
+                              
+            </ul>
+        </nav>
+
+    </div>
+
+
+</header>
+
+
+<div class="conten">
+<h1 id="title">Clicks in 5 Seconds</h1>
+
+
+     <h2 id="Score">Your Click  : <p id="demo">0</p></h2> 
+     <h3 id="Score"><p id="time"></p></h3> 
+     <h3 id="Score">Your Cps : <p id="cps"></p></h3> 
+     <h3 id="Score"><p id="level"></p></h3> 
+
+
+
+  <div class="center">
+
+    <button id="click-button" onclick="handleClick()">click here to start !!</button>
+  </div>
+
+
+</div>
+<div class="center">
+    <button onclick="restart()" id="restart-button">Restart</button>
+  </div>
+<hr>
+<footer id="footer">
+<div class="center">
+    Copyright © Karam 2021
+
+
+</div>
+</footer>
+
+</body>
+</html>
